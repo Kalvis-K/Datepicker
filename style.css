@@ -1,0 +1,73 @@
+button {
+    background-color: #f0f0f0;
+    color: black;
+    border: none;
+    padding: 1px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#monthAndYear {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #949090;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.datepicker {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.datepicker.show {
+    display: block;
+}
+
+.datepicker-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 10px;
+}
+
+.days div {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 2px;
+}
+
+.days div:hover {
+    background-color: #f0f0f0;
+}
+
+.day-name {
+    font-weight: bold;
+    background-color: transparent;
+    cursor: default;
+    padding: 5px;
+}

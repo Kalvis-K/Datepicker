@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Datepicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <h1>Datepicker app</h1>
+    <input type="text" id="datepicker-input" placeholder="Choose a date" readonly>
+    <div class="datepicker" id="datepicker">
+        <div class="datepicker-header">
+            <button id="prevMonth"><i class="fas fa-chevron-left"></i></button>
+            <div id="monthAndYear">October 2024</div>
+            <button id="nextMonth"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="days" id="days"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
