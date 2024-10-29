@@ -10,10 +10,10 @@ This datepicker allows users to navigate between months, select dates, and featu
 
 ## Installation
 
-```bash
    git clone https://github.com/yourusername/invoice-app.git
    cd invoice-app
 
 ## Screenshots
 
-![DatePickApp](https://github.com/user-attachments/assets/52a583e8-2c48-470c-86b0-2fdba32ae433)
+![DatePickApp](https://github.com/user-attachments/assets/7cd9067b-23c5-47e2-87a2-a4812fa58aaf)
+
